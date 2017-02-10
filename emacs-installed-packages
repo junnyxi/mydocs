@@ -1,0 +1,56 @@
+ahungry-theme      20160721.2122 installed             Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).                                                                        
+4717  alect-themes       20170202.6    installed             Configurable light, dark and black themes for Emacs 24 or later                                                                            
+4718  ample-theme        20161213.912  installed             Calm Dark Theme for Emacs                                                                                                                  
+4719  async              20161103.1036 installed             Asynchronous processing in Emacs                                                                                                           
+4720  atom-dark-theme    20151119.2335 installed             An Emacs port of the Atom Dark theme from Atom.io.                                                                                         
+4721  atom-one-dark-t... 20170117.1905 installed             Atom One Dark color theme                                                                                                                  
+4722  auto-complete      20170124.1845 installed             Auto Completion for GNU Emacs                                                                                                              
+4723  bliss-theme        20141115.2301 installed             an Emacs 24 theme based on Bliss (tmTheme)                                                                                                 
+4724  boron-theme        20150117.952  installed             an Emacs 24 theme based on Boron (tmTheme)                                                                                                 
+4725  color-theme        20080305.34   installed             install color themes                                                                                                                       
+4726  company            20170112.2005 installed             Modular text completion framework                                                                                                          
+4727  dash               20170207.2056 installed             A modern list library for Emacs                                                                                                            
+4728  desktop+           20170107.1332 installed             Handle special buffers when saving & restoring sessions                                                                                    
+4729  dirtree            20140129.32   installed             Directory tree views                                                                                                                       
+4730  epl                20150517.433  installed             Emacs Package Library                                                                                                                      
+4731  f                  20161002.800  installed             Modern API for working with files and directories                                                                                          
+4732  fill-column-ind... 20151030.1233 installed             Graphically indicate the fill column                                                                                                       
+4733  flymake            0.4.16        installed             a universal on-the-fly syntax checker                                                                                                      
+4734  flymake-easy       20140818.55   installed             Helpers for easily building flymake checkers                                                                                               
+4735  flymake-go         20150714.33   installed             A flymake handler for go-mode files                                                                                                        
+4736  flymake-json       20130423.2357 installed             A flymake handler for json using jsonlint                                                                                                  
+4737  flymake-php        20121104.1102 installed             A flymake handler for php-mode files                                                                                                       
+4738  flymake-python-... 20131127.6    installed             A flymake handler for python-mode files using pyflakes (or flake8)                                                                         
+4739  go                 20161110.1849 installed             Play GO, translate and transfer between GO back ends                                                                                       
+4740  go-autocomplete    20150903.1940 installed             auto-complete-mode backend for go-mode                                                                                                     
+4741  go-mode            20170206.1507 installed             Major mode for the Go programming language                                                                                                 
+4742  gtags              3.3           installed             gtags facility for Emacs                                                                                                                   
+4743  helm               20170209.513  installed             Helm is an Emacs incremental and narrowing framework                                                                                       
+4744  helm-core          20170209.31   installed             Development files for Helm                                                                                                                 
+4745  helm-cscope        20150609.649  installed             Helm interface for xcscope.el.                                                                                                             
+4746  helm-flymake       20160609.1702 installed             helm interface for flymake                                                                                                                 
+4747  helm-projectile    20170202.1000 installed             Helm integration for Projectile                                                                                                            
+4748  highlight-inden... 20161012.209  installed             Minor modes for highlighting indentation                                                                                                   
+4749  hl-line+           20170101.1012 installed             Extensions to hl-line.el.                                                                                                                  
+4750  hlinum             20160521.2112 installed             Extension for linum.el to highlight current line number                                                                                    
+4751  kooten-theme       20161023.205  installed             Dark color theme                                                                                                                           
+4752  let-alist          1.0.5         installed             Easily let-bind values of an assoc-list by their names                                                                                     
+4753  modeline-posn      20170205.926  installed             Set up `mode-line-position'.                                                                                                               
+4754  monokai-theme      20161216.628  installed             A fruity color theme for Emacs.                                                                                                            
+4755  nlinum             1.6           installed             Show line numbers in the margin                                                                                                            
+4756  php-mode           20170201.1842 installed             Major mode for editing PHP code                                                                                                            
+4757  pkg-info           20150517.443  installed             Information about packages                                                                                                                 
+4758  popup              20160709.729  installed             Visual Popup User Interface                                                                                                                
+4759  projectile         20170106.606  installed             Manage and navigate projects in Emacs easily                                                                                               
+4760  psvn               20151103.1042 installed             Subversion interface for emacs                                                                                                             
+4761  s                  20160928.636  installed             The long lost Emacs string manipulation library.                                                                                           
+4762  seq                2.19          installed             Sequence manipulation functions                                                                                                            
+4763  session            20120510.1700 installed             use variables, registers and buffer places across sessions                                                                                 
+4764  sr-speedbar        20161025.131  installed             Same frame speedbar                                                                                                                        
+4765  tree-mode          20151104.531  installed             A mode to manage tree widgets                                                                                                              
+4766  visual-fill-column 20161109.337  installed             fill-column for visual-line-mode                                                                                                           
+4767  windata            20080412.755  installed             convert window configuration to list                                                                                                       
+4768  window-numbering   20160809.1110 installed             Numbered window shortcuts                                                                                                                  
+4769  xcscope            20160628.2324 installed             cscope interface for (X)Emacs                                                                                                              
+4770  yalinum            20130217.243  installed             yet another display line numbers.                                                                                                          
+4771  yoshi-theme        20161115.1258 installed             Theme named after my cat                                     
