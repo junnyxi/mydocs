@@ -1,0 +1,80 @@
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
+
+(column-number-mode 1)
+(show-paren-mode t)
+(setq initial-scratch-message nil)
+(setq inhibit-startup-screen t)
+
+(electric-pair-mode t)
+(setq-default indent-tabs-mode nil)
+(setq kill-whole-line t)
+
+(setq default-tab-width 4)
+
+(setq inhibit-startup-message 1)
+(fset 'yes-or-no-p 'y-or-n-p)
+(setq make-backup-files nil)
+
+(require 'ido)
+(ido-mode 1)
+
+(require 'whitespace)
+(setq whitespace-style '(face empty tabs trailing))
+(global-whitespace-mode t)
+
+(setq fci-rule-color "#0087ff")
+(setq fci-rule-width 1)
+(defun fci-mode-current-column ()
+  (setq fill-column (current-column))
+  (setq cursor-type '(hbar . 2))
+  (fci-mode t)
+)
+
+(add-hook 'post-command-hook 'fci-mode-current-column)
+
+(load "~/.emacs.d/init-package.el")
+
+(load-theme 'boron t)
+(setq-default fill-column 160)
+
+
+(global-linum-mode t)
+
+(require 'modeline-posn)
+(size-indication-mode 1)
+
+(require 'helm)
+
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+(global-set-key (kbd "M-\\") 'auto-complete)
+(global-auto-complete-mode t)
+
+(require 'php-mode)
+
+(autoload 'dirtree "dirtree" "add directory to tree view" t)
+
+(require 'window-numbering)
+(window-numbering-mode 1)
+
+(require 'session)
+(add-hook 'after-init-hook 'session-initialize)
+
+(require 'ibuffer)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
+(require 'sr-speedbar)
+(global-set-key (kbd "M-s") 'sr-speedbar-toggle)
+(setq speedbar-show-unknown-files t)
+(setq speedbar-use-images nil)
+(setq sr-speedbar-right-side nil)
+
+(global-set-key (kbd "C-c p c") 'helm-projectile-ack)
+
+(require 'hl-line)
+(global-hl-line-mode 1)
+(set-face-background 'hl-line "#3e33333")
+
+(add-hook 'find-file-hook 'flymake-find-file-hook)
